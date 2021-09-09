@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Century Gothic'; 
+    src: url('Century Gothic 400.ttf'); 
+}
+
+body {
+    font-family: Century Gothic; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 24px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#pencilBanner {
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+#nav {
+	background-color: white;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#locationmenu {
+	background-color: white;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#scrolls {
+	
+	background-color: #E9E9E9;
+}
+
+.big {
+	text-align: right;
+	font-size: 44px;
+	font-weight: 400;
+}
+
+.sub {
+	text-align: right;
+	font-size: 20px;
+	font-weight: 400;
+	color: #636363;
+}
+
+#location {
+	background-image: url('../Images/location.png');
+	background-repeat: no-repeat;
+	padding-left: 30px !important;  
+	display: block;
+}
+
+#locationmenu ul li a:hover {
+	background-color: black;
+	color: white;
+}
+
+.shopButton {
+	background-image: url('../Images/bg.png');
+	background-repeat: no-repeat;
+}
+
+.shopButton p {
+	color: white;
+	text-align: center;
+}
+
+.icon {
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+}
+
+.tested {
+	background-image: url('../Images/Tested.svg');
+	padding-top: 74px !important;  
+}
+
+.functional {
+	background-image: url('../Images/Functional.svg');
+	padding-top: 74px !important;  
+}
+
+.technology {
+	background-image: url('../Images/Technology.svg');
+	padding-top: 74px !important;
+}
+
+.iconHeader {
+	font-size: 18px;
+	color: #222222;
+}
+
+.iconSub {
+	color: #636363;
+}
+
+#leftmenu ul li a {
+	font-size: 15px;
+}
+
+#leftmenu ul li hr {
+	background-color: #E2E2E2;
+	height: 1px;
+	border: none;
+}
+
+#leftmenu ul li a:hover {
+  background-image: url('../Images/Arrow.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #17A7E0;
+}
+
+#rightmenu div p {
+	font-size: 15px;
+	color: #636363;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  padding-right: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 

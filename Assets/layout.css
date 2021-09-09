@@ -1,0 +1,202 @@
+#shopmenu {
+	float: left;
+	padding-left: 95px !important;
+}
+
+#shopmenu ul {
+	display:none;
+}
+
+#about {
+	float: left;
+}
+
+#logo {
+	position: absolute;
+   left: 50%;
+   margin-left: -73px !important;
+   display: block;
+}
+
+#rightNav {
+	float: right;
+}
+
+#rightNav img {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#location {
+	position: relative;
+}
+
+#locationmenu {
+	display: none;
+	position: absolute;
+	margin-left: -159px;
+	margin-top: 65px !important;
+	padding-left: 20px;
+	margin-right: 20px;
+	z-index: 1;
+}
+
+#locationmenu ul {
+	list-style-type: none;
+	padding: 0;
+	width: 200px;
+	height: 100px;
+	overflow-y: scroll;
+	
+}
+
+#locationmenu ul li {
+	margin: 7px 0px;
+}
+
+#locationmenu ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+#nav {
+	z-index: 2;
+	position: relative;
+	display: block;
+	height: 100px;
+}
+
+#nav div {
+	padding-left:20px;
+	padding-right: 20px;
+	margin-top: 35px;
+}
+
+#nav div p {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#nav div a {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#nav div img {
+	display: inline;
+}
+
+#nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#hero {
+	height:620px;
+}
+
+#hero img {
+	margin-top: 120px;
+	margin-left: 67px;
+}
+
+#hero::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+#bassinetText {
+	float: right;
+	width: 581px;
+	margin-right: 150px;
+	margin-top: 150px;
+}
+
+.shopButton {
+	width:260px;
+	height: 52px;
+	float: right;
+}
+
+#icons {
+	height: 340px;
+}
+
+#iconContainer {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 70px;
+}
+
+.icon {
+	width: 200px;
+	display: inline-block;
+}
+
+.technology {
+	float: right;
+}
+
+.tested {
+	position: absolute;
+   left: 50%;
+   margin-left: -100px;
+}
+
+#menu {
+	height:582px;
+	width: 100%;
+	position: absolute;
+	top: 148px;
+	background-color: white;
+	padding-left: 95px;
+	display: none;
+}
+#menu::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+#leftmenu {
+	float: left;
+	padding-top: 43px;
+}
+
+#leftmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+}
+
+#leftmenu ul li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#rightmenu {
+	position: absolute;
+   left: 50%;
+   margin-left: -350px !important;
+   display: block;
+   padding-top: 43px;
+}
+
+#rightmenu div {
+	width: 400px;
+}
+
+#all {
+	
+}
+
+#seats {
+	display: none;
+}
